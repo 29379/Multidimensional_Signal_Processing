@@ -46,6 +46,7 @@ def ex1():
     plt.tight_layout()
     plt.show()
     return smaller_img
+
 #   - - - - - - - - -- - - - - - - -
 #   ZAD 2 - - - - - - - - - - - - -
 
