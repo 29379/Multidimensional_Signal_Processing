@@ -12,7 +12,6 @@ def ex1_and_2():
         [-2, 0, 2],
         [-1, 0, 1]
     ])
-    
     pad_width = sobel_kernel.shape[0] // 2
     padded_img = np.pad(gray_img, pad_width=pad_width, mode='constant')
     
