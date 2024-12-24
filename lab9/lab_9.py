@@ -69,7 +69,8 @@ def hit_or_miss(img, b1, b2):
                                                 np.sum(background_search) == np.sum(b2)
     return hit_or_miss_img
 
-def ex1():
+
+def ex1():  
     fig, ax = plt.subplots(1, 3, figsize=(12,6))
 
     custom_img = np.zeros((100, 100)).astype(int)
@@ -90,7 +91,6 @@ def ex1():
     ax[2].set_title('difference')
     plt.tight_layout()
     plt.show()
-
 
 
 def ex2():
@@ -151,12 +151,12 @@ def ex3():
     plt.show()
 
 
-
 def main():
     np.random.seed(1299)
-    # ex1()
-    # ex2()
+    ex1()
+    ex2()
     ex3()
+
 
 if __name__ == '__main__':
     main()
